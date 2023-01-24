@@ -2,7 +2,7 @@ import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header/Header';
 import RGB from './components/RBG/RGB';
-import NotFound from './components/NotFound';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (

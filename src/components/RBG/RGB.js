@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import NotFound from '../NotFound.js';
+import NotFound from '../NotFound/NotFound.js';
 import './RGB.css';
 
 export default function RGB() {
