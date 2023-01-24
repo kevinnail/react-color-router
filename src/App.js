@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header/Header.js';
-import Main from './components/Main/Main.js';
+import Main from './components/Colors/Colors.js';
 
 function App() {
   return (
