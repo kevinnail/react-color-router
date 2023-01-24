@@ -6,11 +6,10 @@ import RGB from './components/RBG/RGB.js';
 function App() {
   return (
     <main className="App">
+      <Header />
       <Switch>
-        <Route path="/RGB/:R/:G/:B" component={Header} />
+        <Route path="/RGB/:R/:G/:B" component={RGB} />
       </Switch>
-
-      <RGB />
     </main>
   );
 }
