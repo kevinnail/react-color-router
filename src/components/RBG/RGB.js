@@ -7,9 +7,8 @@ export default function RGB() {
   console.log('RGB', R, G, B);
 
   return (
-    <div
-      className="RGB"
-      style={{ backgroundColor: `rgb(${R},${G},${B})` }}
-    >{`RGB(${R}, ${G}, ${B})`}</div>
+    <div className="RGB" style={{ backgroundColor: `rgb(${R},${G},${B})` }}>
+      {`RGB(${R}, ${G}, ${B})`}
+    </div>
   );
 }
