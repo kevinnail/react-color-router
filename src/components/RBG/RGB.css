@@ -2,7 +2,9 @@
   height: 90vh;
 }
 
-div {
-  font-size: 3rem;
-  display: grid;
+main div {
+  font-size: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
