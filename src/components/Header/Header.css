@@ -10,5 +10,12 @@ ul {
   list-style: none;
 }
 
-.active {
+.left .active {
+  color: rgb(123, 234, 142);
+}
+.middle .active {
+  color: rgb(231, 034, 022);
+}
+.right .active {
+  color: rgb(005, 001, 452);
 }
