@@ -15,7 +15,10 @@ export default function RGB() {
     G < 0 ||
     G > 255 ||
     B < 0 ||
-    B > 255
+    B > 255 ||
+    R.includes('.') ||
+    G.includes('.') ||
+    B.includes('.')
   ) {
     return <NotFound />;
   }
