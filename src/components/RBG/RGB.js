@@ -6,7 +6,17 @@ import './RGB.css';
 export default function RGB() {
   const { R, G, B } = useParams();
 
-  if (isNaN(R) || isNaN(G) || isNaN(B)) {
+  if (
+    isNaN(R) ||
+    isNaN(G) ||
+    isNaN(B) ||
+    R < 0 ||
+    R > 255 ||
+    G < 0 ||
+    G > 255 ||
+    B < 0 ||
+    B > 255
+  ) {
     return <NotFound />;
   }
 
