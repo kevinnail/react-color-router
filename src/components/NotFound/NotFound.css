@@ -1,0 +1,28 @@
+body {
+  background-size: cover;
+  background-image: radial-gradient(
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    purple,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    purple
+  );
+
+  height: 200vh;
+}
+img {
+  margin-top: 65vh;
+}
+p {
+  margin-top: 5vh;
+  font-size: 2rem;
+  color: rgb(102, 0, 255);
+  text-align: center;
+}

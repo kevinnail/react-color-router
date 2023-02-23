@@ -1,0 +1,32 @@
+.header {
+  color: rgb(0, 0, 0);
+  border-bottom: 4px;
+  background-color: rgb(60, 0, 255);
+  height: 100px;
+  margin: none;
+}
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style: none;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.left .active {
+  color: rgb(123, 234, 142);
+}
+.middle .active {
+  color: rgb(231, 034, 022);
+}
+.right .active {
+  color: rgb(005, 001, 452);
+}
+
+a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+}

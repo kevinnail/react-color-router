@@ -1,0 +1,10 @@
+.RGB {
+  height: 90vh;
+}
+
+main div {
+  font-size: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
